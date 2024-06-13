@@ -1,0 +1,36 @@
+table {
+    width: 100%;
+    transition: none;
+    box-shadow: none;
+}
+
+.small-icon-button {
+    padding: 0;
+    margin: 0;
+    min-width: 24px;
+    width: 30px;
+}
+
+@media (max-width: 831px) {
+    .hidden-mobile {
+        display: none;
+    }
+}
+
+@media (max-width: 450px) {
+    .hidden-lastname-mobile {
+        display: none;
+    }
+}
+
+tr.example-detail-row {
+    height: 0;
+}
+
+tr.example-element-row:not(.example-expanded-row):hover {
+    background: whitesmoke;
+}
+
+tr.example-element-row:not(.example-expanded-row):active {
+    background: #efefef;
+}

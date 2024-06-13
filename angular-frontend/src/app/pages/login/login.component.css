@@ -1,0 +1,51 @@
+.container {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.container img {
+    max-width: 300px;
+    height: auto;
+}
+
+@media (max-width: 430px) {
+    .hidden-mobile {
+        display: none;
+    }
+}
+
+@media (min-width: 431px) {
+    .show-mobile {
+        display: none;
+    }
+}
+
+@media (max-width: 600px) {
+    mat-card {
+        min-width: 17rem;
+    }
+}
+
+.save-button {
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+.mat-success {
+    border-radius: 20px;
+    background-color: rgb(0, 81, 255);
+    color: #fff;
+}
+
+.error-snackbar {
+    background: #c03329;
+}
+
+.prevent-select {
+    -webkit-user-select: none;
+    /* Safari */
+    -ms-user-select: none;
+    /* IE 10 and IE 11 */
+    user-select: none;
+    /* Standard syntax */
+}
